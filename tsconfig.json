@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "lib": ["dom", "esnext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "baseUrl": "./src"
+  },
+  "exclude": [
+    "./cypress.config.ts",
+    "node_modules",
+    "cypress",
+    "**/*.cy.tsx",
+    "config",
+    ".jest",
+    "web-build",
+    "dist",
+    ".expo",
+    "storybook-static"
+  ],
+  "extends": "expo/tsconfig.base"
+}
